@@ -1,0 +1,1 @@
+define("capi",["capiConfig"],function(n){return{onReady:function(t){n.isEnabled?WTOptimize.addEventHandler(WTEvent.RENDER,t):$(function(){t()})}}})
